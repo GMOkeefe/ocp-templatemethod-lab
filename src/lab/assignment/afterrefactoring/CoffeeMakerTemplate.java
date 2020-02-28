@@ -18,6 +18,6 @@ public abstract class CoffeeMakerTemplate {
         System.out.println("Brewing espresso");
     }
 
-    private abstract void addIngredients();
-    private abstract void finalTouch();
+    protected abstract void addIngredients();
+    protected abstract void finalTouch();
 }
