@@ -1,9 +1,9 @@
-package lab.assignment.beforerefactoring;
+package lab.assignment.afterrefactoring;
 
-public class CapuccinoMaker extends CoffeeMakerTemplate {
+public class CapuccinoMaker extends CoffeeMaker {
 
     @Override
-    protected void prepareIngredients(){
+    protected void addIngredients(){
         System.out.println("Add hot milk");
         System.out.println("Add cinnamon");
     }

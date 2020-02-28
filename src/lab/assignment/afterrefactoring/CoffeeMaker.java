@@ -1,6 +1,6 @@
-package lab.assignment.beforerefactoring;
+package lab.assignment.afterrefactoring;
 
-public abstract class CoffeeMakerTemplate {
+public abstract class CoffeeMaker {
 
     public void prepareCoffee(){
         boilWater();
